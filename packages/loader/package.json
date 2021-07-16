@@ -1,0 +1,40 @@
+{
+  "name": "pjtools-pkgs-loader",
+  "version": "0.0.1",
+  "description": "pjtools-pkgs-loader",
+  "keywords": [
+    "pjtools",
+    "pjtools-pkgs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "MIT",
+  "module": "es/index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "src",
+    "dist",
+    "es"
+  ],
+  "browserslist": [
+    "last 2 versions",
+    "Firefox ESR",
+    "> 1%",
+    "ie >= 11"
+  ],
+  "dependencies": {},
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "authors": [
+    "PJtools <pjtools@vip.qq.com> (https://github.com/PJtools)"
+  ]
+}
