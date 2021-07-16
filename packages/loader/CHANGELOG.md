@@ -1,18 +1,7 @@
 # Change Log
 
-All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
 ## [0.0.2](https://github.com/PJtools/pjtools-pkgs/compare/pjtools-pkgs-loader@0.0.1...pjtools-pkgs-loader@0.0.2) (2021-07-16)
 
 **Note:** Version bump only for package pjtools-pkgs-loader
-
-
-
-
-
-# 更新日志
-
-## [0.0.1] (2021-07-16)
-
-**Note:** 版本仅适用于 - pjtools-pkgs-loader
