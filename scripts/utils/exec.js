@@ -1,4 +1,5 @@
-const { spawn } = require('child_process');
+// const { spawn } = require('child_process');
+const spawn = require('cross-spawn');
 
 module.exports = function exec(command, args, opts) {
   return new Promise((resolve, reject) => {
