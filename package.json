@@ -9,7 +9,7 @@
     "start": "dumi dev",
     "build": "npm run build-lib && webpack && node ./scripts/gen_less_entry.js",
     "build-lib": "cross-env BUILD_TYPE=lib father-build && cross-env BUILD_TYPE=es father-build",
-    "release": "npm run test && node ./scripts/release.js",
+    "release": "node ./scripts/release.js",
     "deploy": "cross-env SITE_DEPLOY='TRUE' npm run site && gh-pages -d ./dist",
     "site": "node ./scripts/preDeploy && dumi build",
     "changelog": "pro-changelog",
