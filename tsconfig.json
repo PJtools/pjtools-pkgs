@@ -14,7 +14,7 @@
     "skipLibCheck": true,
     "paths": {
       "pjtools-pkgs-utils": ["./packages/utils/src/index.tsx"],
-      "pjtools-pkgs-loader": ["./packages/loader/src/index.tsx"],
+      "pjtools-pkgs-loader": ["./packages/loader/src/index.tsx"]
     }
   },
   "include": [
@@ -26,6 +26,7 @@
     "tests",
     "jest.config.js",
     "**/fixtures",
-    "./tests/no-duplicated.ts", "packages/loader/demos",
+    "./tests/no-duplicated.ts",
+    "packages/loader/demos"
   ]
 }
