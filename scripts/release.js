@@ -54,9 +54,7 @@ async function release() {
     const updatedStdout = execa.sync(lernaCli, ['changed']).stdout;
     updated = updatedStdout
       .split('\n')
-      .map((pkg) => {
-        return pkg.split('/')[1];
-      })
+      .map((pkg) => pkg)
       .filter(Boolean);
     if (!updated.length) {
       printErrorAndExit('Release failed, no updated package is updated.');
