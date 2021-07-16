@@ -22,7 +22,7 @@ const { yParser } = require('@umijs/utils');
         keywords: ['pjtools', 'pjtools-pkgs'],
         repository: {
           type: 'git',
-          url: '',
+          url: 'https://github.com/PJtools/pjtools-pkgs',
         },
         license: 'MIT',
         module: 'es/index.js',
