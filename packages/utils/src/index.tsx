@@ -4,4 +4,8 @@
  * @创建时间: 2021-07-16 18:34:33
  */
 
-export default {};
+import type { AnyObject, StringObject } from './typings.d';
+
+export type { AnyObject, StringObject };
+
+export * from './assert';
