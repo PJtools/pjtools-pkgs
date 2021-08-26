@@ -95,9 +95,10 @@ export default {
   },
   ignoreMomentLocale: true,
   headScripts: [
-    'https://gw.alipayobjects.com/os/antfincdn/fdj3WlJd5c/darkreader.js',
-    { src: '/libs/systemjs/system.min.js' },
+    { src: 'https://gw.alipayobjects.com/os/antfincdn/fdj3WlJd5c/darkreader.js' },
     { src: '/libs/bluebird/bluebird.min.js' },
+    { src: '/libs/systemjs/system.min.js' },
+    { src: '/libs/systemjs/extras/amd.min.js' },
   ],
   links: [],
   externals: {
