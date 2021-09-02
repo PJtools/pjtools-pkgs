@@ -12,6 +12,7 @@
     "release": "node ./scripts/release.js",
     "deploy": "cross-env SITE_DEPLOY='TRUE' npm run site && gh-pages -d ./dist",
     "site": "node ./scripts/preDeploy && dumi build",
+    "clean": "rimraf packages/**/dist && rimraf packages/**/lib && rimraf packages/**/es",
     "changelog": "pro-changelog",
     "createRelease": "node ./scripts/createRelease.js",
     "lint": "eslint --cache --ext .js,.jsx,.ts,.tsx  --fix --format=pretty ./packages && npm run lint:prettier",
