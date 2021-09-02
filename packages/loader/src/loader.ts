@@ -4,10 +4,11 @@
  * @创建时间: 2021-07-21 16:49:27
  */
 
-import System from 'systemjs';
 import { isPlainObject, assign, forIn, replace } from 'lodash';
 import { isUrl, isBase64Url } from 'pjtools-pkgs-utils';
 import type { StringObject } from 'pjtools-pkgs-utils';
+
+const System = window['System'] || null;
 
 export type PkgsLoaderConfig = {
   // 基础前缀URL链接地址
