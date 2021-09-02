@@ -4,4 +4,5 @@
  * @创建时间: 2021-07-21 18:00:55
  */
 
+export * from './isType';
 export * from './isUrl';
