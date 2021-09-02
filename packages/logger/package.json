@@ -1,0 +1,41 @@
+{
+  "name": "pjtools-pkgs-logger",
+  "version": "0.0.1",
+  "description": "pjtools-pkgs-logger",
+  "keywords": [
+    "pjtools",
+    "pjtools-pkgs"
+  ],
+  "sideEffects": [
+    "*.less"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PJtools/pjtools-pkgs"
+  },
+  "license": "MIT",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist",
+    "es"
+  ],
+  "browserslist": [
+    "last 2 versions",
+    "Firefox ESR",
+    "> 1%",
+    "ie >= 11"
+  ],
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "authors": [
+    "PJtools <pjtools@vip.qq.com> (https://github.com/PJtools)"
+  ]
+}

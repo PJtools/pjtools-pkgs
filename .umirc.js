@@ -112,8 +112,8 @@ export default {
         children: ['components.md'],
       },
       {
-        title: '布局',
-        children: ['loader'],
+        title: '工具',
+        children: ['pkgs/logger.md'],
       },
     ],
   },

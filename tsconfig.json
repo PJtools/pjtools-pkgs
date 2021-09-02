@@ -14,6 +14,7 @@
     "skipLibCheck": true,
     "paths": {
       "pjtools-pkgs-utils": ["./packages/utils/src/index.tsx"],
+      "pjtools-pkgs-logger": ["./packages/logger/src/index.ts"],
       "pjtools-pkgs-loader": ["./packages/loader/src/index.tsx"]
     }
   },
