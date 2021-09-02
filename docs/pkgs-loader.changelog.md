@@ -9,8 +9,8 @@ group:
 
 # Change Log
 
-## pjtools-pkgs-loader@0.0.1
+## pjtools-pkgs-loader@0.0.3
 
-`2021-07-16`
+`2021-09-02`
 
-- ✅ tests: 这是一条测试日志
+- 🐞 修复全局Window下System对象编译不存在等问题
