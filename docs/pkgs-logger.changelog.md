@@ -9,7 +9,7 @@ group:
 
 # Change Log
 
-## pjtools-pkgs-logger@0.0.1
+## pjtools-pkgs-logger@0.0.2
 
 `2021-09-02`
 

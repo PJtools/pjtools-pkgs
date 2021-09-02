@@ -147,7 +147,7 @@ async function release() {
     }
   });
 
-  await exec('npm', ['run', 'prettier']);
+  // await exec('npm', ['run', 'prettier']);
 
   logStep('done');
 }

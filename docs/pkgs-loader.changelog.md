@@ -13,4 +13,4 @@ group:
 
 `2021-09-02`
 
-- 🐞 修复全局Window下System对象编译不存在等问题
+- 🐞 修复全局 Window 下 System 对象编译不存在等问题
