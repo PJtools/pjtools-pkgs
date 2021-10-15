@@ -117,6 +117,6 @@ export default {
       },
     ],
   },
-  webpack5: {},
+  mfsu: {},
   fastRefresh: {},
 };
