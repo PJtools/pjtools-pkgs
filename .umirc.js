@@ -33,16 +33,7 @@ export default {
   devServer: {
     port: 8200,
   },
-  extraBabelPlugins: [
-    [
-      'import',
-      {
-        libraryName: 'antd',
-        libraryDirectory: 'es',
-        style: true,
-      },
-    ],
-  ],
+  extraBabelPlugins: [],
   metas: [
     {
       property: 'og:site_name',
@@ -96,9 +87,9 @@ export default {
   ignoreMomentLocale: true,
   headScripts: [
     { src: 'https://gw.alipayobjects.com/os/antfincdn/fdj3WlJd5c/darkreader.js' },
-    { src: '/libs/bluebird/bluebird.min.js' },
-    { src: '/libs/systemjs/system.min.js' },
-    { src: '/libs/systemjs/extras/amd.min.js' },
+    // { src: '/libs/bluebird/bluebird.min.js' },
+    // { src: '/libs/systemjs/system.min.js' },
+    // { src: '/libs/systemjs/extras/amd.min.js' },
   ],
   links: [],
   externals: {

@@ -35,10 +35,10 @@ const getChangelog = (content, version) => {
 };
 
 const getMds = (allVersion = false) => {
-  const docDir = path.join(__dirname, '..', 'docs');
-  const mdFils = fs.readdirSync(docDir).filter((name) => name.includes('changelog.md'));
+  const docDir = path.join(__dirname, '..', 'docs/changelog');
+  const mdFils = fs.readdirSync(docDir);
   mdFils.map((mdFile) => {
-    const pkg = mdFile.replace('pkgs-', '').replace('.changelog.md', '');
+    const pkg = mdFile.replace('pkgs-', '').replace('.md', '');
     const content = fs.readFileSync(path.join(docDir, mdFile)).toString();
     let versions = [
       require(path.join(path.join(__dirname, '..', 'packages', pkg, 'package.json'))).version,

@@ -13,12 +13,13 @@
     "declaration": true,
     "skipLibCheck": true,
     "paths": {
-      "pjtools-pkgs-utils": ["./packages/utils/src/index.tsx"],
-      "pjtools-pkgs-logger": ["packages/logger/src/index.tsx"],
-      "pjtools-pkgs-loader": ["./packages/loader/src/index.tsx"]
+      "pjtools-pkgs-core": ["./packages/core/src/index.ts"],
+      "pjtools-pkgs-logger": ["./packages/logger/src/index.tsx"]
     }
   },
+  "plugins": [{ "transform": "typescript-transform-paths", "afterDeclarations": true }],
   "include": [
+    "typings.d.ts",
     "**/src/**/*",
     "**/docs/**/*",
     "scripts/**/*",
@@ -27,7 +28,6 @@
     "tests",
     "jest.config.js",
     "**/fixtures",
-    "./tests/no-duplicated.ts",
-    "packages/loader/demos"
+    "./tests/no-duplicated.ts"
   ]
 }

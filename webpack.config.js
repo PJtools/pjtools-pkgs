@@ -23,15 +23,13 @@ const externals = isCI
     }, {})
   : {};
 
-console.log(externals);
-
 const webPackConfigList = [];
 
 tailPkgs.forEach((pkg) => {
   const entry = {};
-  entry[`${pkg}`] = `./packages/${pkg}/src/index.tsx`;
+  entry[`${pkg}`] = `./packages/${pkg}/src/index.ts`;
   if (!isCI) {
-    entry[`${pkg}.min`] = `./packages/${pkg}/src/index.tsx`;
+    entry[`${pkg}.min`] = `./packages/${pkg}/src/index.ts`;
   }
   const config = {
     entry,
@@ -146,8 +144,6 @@ tailPkgs.forEach((pkg) => {
       {
         react: 'React',
         'react-dom': 'ReactDOM',
-        antd: 'antd',
-        moment: 'moment',
         ...externals,
       },
     ],
