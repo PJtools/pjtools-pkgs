@@ -28,6 +28,9 @@ import type {
   ILoggerSpanType,
 } from './typings';
 
+// TypeScript类型
+export * from './typings';
+
 export interface ConsoleLoggerOptions {
   // 是否禁用控制台日志输出（不包括Error错误日志）
   disabled?: boolean;
