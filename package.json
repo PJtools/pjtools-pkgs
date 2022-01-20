@@ -34,9 +34,6 @@
     "> 1%",
     "ie >= 11"
   ],
-  "dependencies": {
-    "ua-parser-js": "^1.0.2"
-  },
   "peerDependencies": {
     "lodash": "^4.17.21"
   },
@@ -143,5 +140,24 @@
     "pre-commit": "pretty-quick --staged",
     "commit-msg": "fabric verify-commit"
   },
-  "size-limit": []
+  "size-limit": [
+    {
+      "path": "packages/core/dist/**/*.js",
+      "limit": "100 s",
+      "webpack": false,
+      "running": false
+    },
+    {
+      "path": "packages/icon/dist/**/*.js",
+      "limit": "100 s",
+      "webpack": false,
+      "running": false
+    },
+    {
+      "path": "packages/logger/dist/**/*.js",
+      "limit": "100 s",
+      "webpack": false,
+      "running": false
+    }
+  ]
 }

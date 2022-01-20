@@ -28,6 +28,9 @@
     "> 1%",
     "ie >= 11"
   ],
+  "dependencies": {
+    "ua-parser-js": "^1.0.2"
+  },
   "peerDependencies": {
     "react": ">=17.0.0",
     "react-dom": ">=17.0.0"

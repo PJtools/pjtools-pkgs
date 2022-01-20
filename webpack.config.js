@@ -27,9 +27,9 @@ const webPackConfigList = [];
 
 tailPkgs.forEach((pkg) => {
   const entry = {};
-  entry[`${pkg}`] = `./packages/${pkg}/src/index.ts`;
+  entry[`${pkg}`] = `./packages/${pkg}/src/index`;
   if (!isCI) {
-    entry[`${pkg}.min`] = `./packages/${pkg}/src/index.ts`;
+    entry[`${pkg}.min`] = `./packages/${pkg}/src/index`;
   }
   const config = {
     entry,
