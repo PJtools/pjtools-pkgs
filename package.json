@@ -35,6 +35,8 @@
     "ie >= 11"
   ],
   "peerDependencies": {
+    "@ant-design/icons": "4.x",
+    "@icon-park/react": "^1.3.5",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
@@ -143,12 +145,6 @@
   "size-limit": [
     {
       "path": "packages/core/dist/**/*.js",
-      "limit": "100 s",
-      "webpack": false,
-      "running": false
-    },
-    {
-      "path": "packages/icon/dist/**/*.js",
       "limit": "100 s",
       "webpack": false,
       "running": false

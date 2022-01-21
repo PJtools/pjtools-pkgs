@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "baseUrl": "./",
+    "module": "esnext",
     "target": "esnext",
     "moduleResolution": "node",
     "jsx": "preserve",
@@ -14,7 +15,7 @@
     "skipLibCheck": true,
     "paths": {
       "pjtools-pkgs-core": ["./packages/core/src/index.ts"],
-      "pjtools-pkgs-logger": ["./packages/logger/src/index.tsx"]
+      "pjtools-pkgs-logger": ["packages/logger/src/index.ts"]
     }
   },
   "plugins": [{ "transform": "typescript-transform-paths", "afterDeclarations": true }],
